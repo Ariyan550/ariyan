@@ -1,0 +1,102 @@
+.main-popup{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    @media all and (max-width:500px){
+        top:55%;
+        
+      
+    }
+
+    .popup-content{
+        overflow: hidden;
+        position: relative;
+        width:400px;
+        height: auto;
+        background-color:#fff;
+        border:0.5rem solid $primary;
+        padding: 10px;
+        
+    @media all and (max-width:500px){
+        width:340px;
+
+      
+    }
+        h3{
+            color:$secondary;
+            font-size: 2rem;
+        }
+        p{
+            text-transform: capitalize;
+            font-size: 0.8rem;
+        }
+        .close{
+            position: absolute;
+            top:10px;
+            right: 20px;
+            font-size: 2rem;
+            color:$primary;
+            cursor: pointer;
+        }
+
+        .subscribe{
+            .message{
+                    width:5rem;
+                   
+            }
+            
+            .closeNow{
+               float: right;
+            }
+            h2{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $primary;
+                text-shadow: 0px 2px 2px rgba(0,0,0,0.1),
+                             0px 3px 3px rgba(0,0,0,0.1),
+                             0px 4px 4px rgba(0,0,0,0.1);
+                word-spacing: 0.1rem;
+            }
+            .subscribe-input{
+                outline: none;
+                border:none;
+                width:13rem;
+                height: 2.4rem; 
+                transition: all .3s;          
+                box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1);
+                &:focus{
+                   background: linear-gradient(to right,$primary,$secondary);
+                   color: #fff;
+                }
+            }
+
+            .subscribe-btn{
+                @media all and (max-width:500px){
+                    margin-top: 1rem;
+                    
+                  
+                }
+                border:none;
+                outline: none;
+                padding: 7px 15px;
+                color:white;
+                background: linear-gradient(to right, $primary,$secondary);
+                transition: all .3s;
+                &:hover{
+                    background: linear-gradient(to right,$secondary,$primary);
+                }
+            }
+        }
+
+
+
+
+    }
+
+
+
+
+}

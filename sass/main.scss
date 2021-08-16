@@ -1,0 +1,23 @@
+@import "custom";
+@import "others";
+// IMPORT COMPONENTS
+
+@import "components/buttons";
+@import "components/animation";
+@import "components/mixin";
+@import "components/typography";
+//IMPORT SECTIONS
+
+@import "sections/navbar";
+@import "sections/intro-section";
+@import "sections/campanies";
+@import "sections/services";
+@import "sections/testimonial";
+@import "sections/faq";
+@import "sections/portfolio";
+@import "sections/get-started";
+@import "sections/footer";
+@import "sections/popup";
+@import "sections/youtube";
+@import "sections/signin";
+@import "sections/review";

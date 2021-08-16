@@ -1,0 +1,39 @@
+@import '../custom';
+@import '../components/mixin';
+
+
+.btn-rounded{
+    position: relative;
+    padding: 0.9375rem 3.375rem 0.9375rem 1.25rem;
+    margin:0;
+    font-weight: 700;
+    border:0.1px solid rgba($white,0.6);
+    background-color: $white;
+    transition:.2s;
+
+    &:hover{
+        @include gradient;
+        color:$white;
+       font-weight: bold;
+        span{
+            background-color: rgba($black, 0.6);
+        }
+    }
+
+    span{
+        position: absolute;
+        background-color: $primary;
+        width:2.5rem;
+        height: 2.5rem;
+        top:50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        i{
+            color:$white;
+            line-height: 2.5rem;
+        }
+    }
+
+ 
+}

@@ -1,0 +1,51 @@
+
+
+// border animation
+@keyframes pulse-border{
+0%{
+    transform: scale(1);
+    opacity: 1;
+}
+
+100%{
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+}
+
+// text-run
+
+@keyframes text-run{
+    0%{
+        transform: translateX(190px);
+    }
+
+    100%{
+        transform: translateX(0px);
+        opacity: 0.2;
+    }
+}
+
+
+@keyframes headingLine {
+    0%{
+        transform: translateX(50px);
+        
+    }
+
+    50%{
+        transform: translateX(-45px);
+        background: $secondary;
+    }
+    75%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(-45px);
+        background: $secondary;
+    }
+    
+}
+
+

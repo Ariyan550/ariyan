@@ -1,0 +1,82 @@
+.testimonial{
+@include gradient;
+padding: 0;
+position: relative;
+
+&__card{
+
+background-color:rgba(white,0.8);
+box-shadow: 0px 3px 4px rgba(0,0,0,0.1);
+color:black;
+padding: 0.8rem 0.8rem 4rem 0.8rem;
+border-radius: 1rem;
+
+
+
+.yellowColor{
+    color:yellow!important;
+}
+
+
+.Ratehover{
+    color:$secondary!important;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li{
+        padding-left: 0.6rem;
+        color:$primary;
+        cursor: pointer;
+        list-style: none;
+        i{
+            font-size: 1.7rem;
+        }
+    }
+
+ 
+
+
+}
+
+}
+
+
+&__image{
+    margin-top: -50px;
+   
+    img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border: 0.3rem solid $secondary;
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.1);
+
+}
+}
+
+
+&__name{
+    text-transform: capitalize;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+
+        p{
+            font-size: 1rem;
+        }
+
+
+}
+
+
+}
+
+
+
+
+
+
+
