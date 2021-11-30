@@ -23019,48 +23019,6 @@ html {
       .main-popup .popup-content .subscribe .subscribe-btn:hover {
         background: linear-gradient(to right, #d122e3, #9926f0); }
 
-.latest-upload {
-  margin-top: 100px; }
-  .latest-upload .owl-carousel {
-    top: 40px; }
-    .latest-upload .owl-carousel .owl-dots.disabled, .latest-upload .owl-carousel .owl-carousel .owl-nav.disabled {
-      display: block; }
-    .latest-upload .owl-carousel .item-video {
-      height: 240px; }
-
-.post-section {
-  margin-top: 100px; }
-  .post-section a {
-    text-decoration: none;
-    color: black; }
-    .post-section a:hover {
-      color: dodgerblue;
-      text-decoration: underline; }
-  .post-section .postContent {
-    margin-top: 20px;
-    padding: 1rem; }
-    .post-section .postContent .upContent img {
-      width: 100px;
-      height: 100px; }
-    .post-section .postContent .downContent img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      margin-right: 5px; }
-    .post-section .postContent .downContent .lcsection {
-      display: flex; }
-      .post-section .postContent .downContent .lcsection h6, .post-section .postContent .downContent .lcsection .h6 {
-        margin: 0px 8px; }
-      .post-section .postContent .downContent .lcsection .likeOne {
-        margin-right: 5px;
-        margin-left: 10px; }
-      .post-section .postContent .downContent .lcsection .likeTwo {
-        margin-left: 15px;
-        margin-right: 5px; }
-      .post-section .postContent .downContent .lcsection .comment {
-        margin-left: 10px;
-        margin-right: 5px; }
-
 .signin-section {
   margin-top: 100px; }
   .signin-section a {
@@ -23169,3 +23127,45 @@ html {
   .review-section #contact-btn a {
     text-decoration: none;
     color: white; }
+
+.pdfArea {
+  width: 270px;
+  height: 40px;
+  background-color: #d122e3;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white; }
+  .pdfArea:hover .cornerDesign {
+    opacity: 1;
+    pointer-events: auto;
+    width: 50px;
+    height: 30px; }
+  .pdfArea a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px; }
+    .pdfArea a:hover {
+      text-decoration: underline; }
+  .pdfArea .cornerDesign {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+    background-color: #9926f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 0px; }
+    .pdfArea .cornerDesign i {
+      color: white;
+      font-size: 20px; }
+
+.pdfsection {
+  overflow: hidden;
+  margin: 0 10px; }
