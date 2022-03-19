@@ -164,69 +164,6 @@ $(".closeNow").click(function(){
 
 
 
-// subscribe count
-
-let subCount =0;
-let subOutput =document.getElementById("subCounter");
-
-function subscribeBtn(){
-
-subCount = subCount+1;
-
-subOutput.innerText=subCount;
-
-}
-
-// end others custom js code
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// time function
-
-let timeFun =document.getElementById('time');
-let timeTwo =document.getElementById('time2');
-
-
-setInterval(()=>{
-
-    const getDate = new Date();
-
-    let date = getDate.toLocaleDateString();
-    let nowTime = getDate.toLocaleTimeString();
-    
-    timeFun.innerHTML=date;
-    timeTwo.innerHTML =nowTime;
-    
-    
-
-
-},1000);
-
-//end time function
-
-
-
 // pasword show hide option
 
 
@@ -340,13 +277,6 @@ stars.forEach(function(ele,ind){
 
         
     }
-
-
-
-
-
-
-
 
 })
 
